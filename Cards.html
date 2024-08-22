@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Faisal Shehzad</title>
+        <link rel="icon" href="https://image.pngaaa.com/543/3458543-middle.png" type="image/x-icon"> <!-- Favicon link -->
+        <style>
+            *,
+            *::before,
+            *::after {
+            box-sizing: border-box;
+            }
+
+            .main {
+            max-width: 1200px;
+            margin: 0 auto;
+            }
+
+            .cards {
+            display: grid;
+            grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            }
+
+            .cards_item {
+            display: flex;
+            padding: 1rem;
+            }
+
+            .card_image {
+            height: calc(13*1.2rem);
+            padding: 1.2rem 1.2rem 0;
+            position:relative;
+            }
+            .card_image:before,
+            .card_image:after{
+            content: "";
+            position: absolute;
+            width: 20px;
+            left: 60%;
+            top: 0;
+            height: 45px;
+            background: #e6e6e6b8;
+            transform: rotate(45deg);
+            }
+            .card_image:after{
+            transform: rotate(-45deg);
+            top:auto;
+            bottom:-22px;
+            left:40%;
+            }
+            .card_image img {
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            }
+
+            .cards_item {
+            filter:drop-shadow(0 0 5px rgba(0, 0, 0, 0.25));
+            }
+
+
+            .card {
+            background-color: white;
+            border-radius: 0.25rem;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            padding-left: 30px;
+            background: repeating-linear-gradient(#0000 0 calc(1.2rem - 1px),#66afe1 0 1.2rem) right bottom /100% 100%,linear-gradient(red 0 0) 30px 0/2px 100% #fff;
+            background-repeat: no-repeat;
+            line-height: 1.2rem;
+            -webkit-mask:radial-gradient(circle .8rem at 2px 50%,#0000 98%,#000)0 0/100% 2.4rem;
+            }
+
+            .card_content {
+            padding: 1.2rem;
+            }
+
+            h2.card_title,p {
+            margin: 1.2rem 0;
+            }
+            h2.card_title {
+                font-size: 1.3em;
+            }
+            body {
+            font-family:monospace;
+            background:#eee;
+            }
+
+            html {
+            font-size:15px;
+            }
+            .card_signature {
+                position: absolute;
+                right: 16px;
+                bottom: 16px;
+                background: rgba(255, 255, 255, 0.8);
+                padding: 8px;
+                border-radius: 4px;
+                font-style: italic;
+                font-size: 14px;
+                color: #333;
+            }
+
+            .card_signature p {
+                margin: 0;
+            }
+
+    </style>
+
+    </head>
+    <body>
+        <div class="main">
+            <ul class="cards">
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image"><img src="Faisal1.jpeg"
+                                alt="Faisal Shehzad"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Innovative Leader</h2>
+                            <div class="card_text">
+                                <p>Faisal Shehzad exemplifies what it means to
+                                    be an innovative leader. His
+                                    forward-thinking mindset and ability to
+                                    anticipate future trends have positioned him
+                                    at the forefront of industry advancements.
+                                    Faisal’s strategic vision, combined with his
+                                    hands-on approach, makes him a driving force
+                                    behind groundbreaking initiatives that push
+                                    the boundaries of what is possible.</p>
+                                <div class="card_signature">
+                                    <p>By Talha Ahmad</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image"><img src="Faisal2.jpeg"
+                                alt="Faisal Shehzad in action"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Master of Collaboration</h2>
+                            <div class="card_text">
+                                <p>As a master of collaboration, Faisal Shehzad
+                                    is known for his exceptional ability to
+                                    bring people together towards a common goal.
+                                    His inclusive approach fosters teamwork and
+                                    drives collective success. Faisal’s skill in
+                                    navigating complex group dynamics and his
+                                    dedication to creating an environment where
+                                    every voice is heard make him a valued team
+                                    player and leader.</p>
+                                <div class="card_signature">
+                                    <p>By: Nadeem Iqbal</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image"><img src="Faisal.jpeg"
+                                alt="Faisal Shehzad smiling"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Commitment to Excellence</h2>
+                            <div class="card_text">
+                                <p>Faisal Shehzad's commitment to excellence is
+                                    evident in everything he does. From
+                                    meticulous attention to detail to a
+                                    relentless pursuit of perfection, Faisal
+                                    consistently delivers high-quality results.
+                                    His dedication to maintaining the highest
+                                    standards and his proactive approach to
+                                    continuous improvement have earned him a
+                                    reputation for outstanding achievement and
+                                    reliability.</p>
+                                <div class="card_signature">
+                                    <p>By: Sidra</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
